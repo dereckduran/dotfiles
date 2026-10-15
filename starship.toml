@@ -36,7 +36,7 @@ style = "bold blue"
 
 
 [os.symbols]
-Arch = " "
+Arch = " "
 
 
 [git_branch]
