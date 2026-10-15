@@ -1,1 +1,9 @@
-theme = Oxocarbon
+# Fonts
+font-family = "Fira Code"
+font-size = 14
+
+# Etc
+copy-on-select = true
+cursor-style = block
+shell-integration-features = no-cursor 
+mouse-hide-while-typing = true
