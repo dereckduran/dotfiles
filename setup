@@ -9,5 +9,6 @@ ln -sf ~/dotfiles/vimrc ~/.vimrc
 ln -sf ~/dotfiles/starship.toml ~/.config/starship.toml
 ln -sf ~/dotfiles/hyprland.lua ~/.config/hypr/hyprland.lua
 ln -sf ~/dotfiles/config.ghostty ~/.config/ghostty/config.ghostty 
+ln -sf ~/dotfiles/tmux.conf ~/.tmux.conf
 
 echo "Dotfiles linked"
