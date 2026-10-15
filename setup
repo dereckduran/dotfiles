@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Link dotiles to home directory
+
+mkdir -p ~/.config
+
+ln -sf ~/dotfiles/bashrc ~/.bashrc
+ln -sf ~/dotfiles/vimrc ~/.vimrc
+ln -sf ~/dotfiles/starship.toml ~/.config/starship.toml
+ln -sf ~/dotfiles/hyprland.lua ~/.config/hypr/hyprland.lua
+ln -sf ~/dotfiles/conf.ghostty ~/.config/ghostty/conf.ghostty 
+
+echo "Dotfiles linked"
