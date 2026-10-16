@@ -13,3 +13,6 @@ export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 # starship init
 eval "$(starship init bash)"
+
+# local programs
+export PATH="$HOME/.local/bin:$PATH"
